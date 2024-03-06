@@ -28,3 +28,4 @@ C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\refint\UFOT.dll
 C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\UFOT.pdb
 C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\UFOT.genruntimeconfig.cache
 C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\ref\UFOT.dll
+C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\UFOT.sourcelink.json
