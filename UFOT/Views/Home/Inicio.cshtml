@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Bancario</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  nav ul li a:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    margin-left: 170px;
+    padding: 20px;
+  }
+  .account {
+    border: 2px solid #007bff;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+
+    <li><a href="@Url.Action("Index", "Home")">Inicio</a></li>
+    <li><a href="#consultar">Consultar movimientos de sus cuentas</a></li>
+    <li><a href="#transferencias-propias">Realizar transferencias entre cuentas propias</a></li>
+    <li><a href="#beneficiarios">Registrar beneficiarios</a></li>
+    <li><a href="#pagos-prestamos">Pago de préstamos</a></li>
+    <li><a href="#transferencias-terceros">Realizar transferencias a terceros</a></li>
+    <li><a href="#transferencias-otros-bancos">Realizar transferencias a cuentas de otros bancos</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="account">
+    <h2>Datos de la cuenta bancaria</h2>
+    <p>Nombre del titular: Juan Pérez</p>
+    <p>Número de cuenta: XXXX-XXXX-XXXX-XXXX</p>
+    <p>Saldo disponible: $10,000.00</p>
+  </div>
+</div>
+
+</body>
+</html>
+
