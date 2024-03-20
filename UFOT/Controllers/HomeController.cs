@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using UFOT.Models;
@@ -15,6 +16,7 @@ namespace UFOT.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
@@ -33,6 +35,15 @@ namespace UFOT.Controllers
             return View();
         }
 
+        public IActionResult Beneficiarios()
+        { 
+            return View(); 
+        }
+
+        public IActionResult Prestamos() 
+        { 
+            return View(); 
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

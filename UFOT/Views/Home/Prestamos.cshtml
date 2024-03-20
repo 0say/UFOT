@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pago de Préstamos</title>
+<style>
+ 
+  /* Estilos adicionales para el formulario */
+  form {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<!-- Formulario para pago de préstamos -->
+<form action="/realizar_pago_prestamo" method="post">
+  <h2>Pago de Préstamos</h2>
+
+  <label for="cuenta">Cuenta de origen:</label>
+  <select id="cuenta" name="cuenta" required>
+    <option value="cuenta1">Cuenta 1 - XXXX-XXXX-XXXX-XXXX</option>
+    <option value="cuenta2">Cuenta 2 - XXXX-XXXX-XXXX-XXXX</option>
+    <option value="cuenta3">Cuenta 3 - XXXX-XXXX-XXXX-XXXX</option>
+    <!-- Agrega más opciones según sea necesario -->
+  </select>
+
+  <label for="prestamo">Seleccionar Préstamo:</label>
+  <select id="prestamo" name="prestamo" required>
+    <option value="prestamo1">Préstamo 1 - $500.00</option>
+    <option value="prestamo2">Préstamo 2 - $1000.00</option>
+    <option value="prestamo3">Préstamo 3 - $1500.00</option>
+    <!-- Agrega más opciones según sea necesario -->
+  </select>
+
+  <label for="monto">Monto a Pagar:</label>
+  <input type="text" id="monto" name="monto" placeholder="Ingrese el monto a pagar" required>
+
+  <input type="submit" value="Realizar Pago">
+</form>
+
+</body>
+</html>
