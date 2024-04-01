@@ -50,5 +50,18 @@ namespace UFOT.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult TransferirBeneficiario()
+        {
+            return View();
+        }
+        public IActionResult transferirTerceros()
+        {
+            return View();
+        }
+
+        public IActionResult transferirEntreCuentas()
+        {
+            return View();
+        }
     }
 }

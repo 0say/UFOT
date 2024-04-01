@@ -41,12 +41,12 @@
     <!-- Barra lateral -->
     <div id="sidebar">
          <a href="@Url.Action("Inicio", "Home")">Inicio</a></>
-    <a href="#consultar">Consultar movimientos de sus cuentas</a>
-    <a href="#transferencias-propias">Realizar transferencias entre cuentas propias</a>
+    
+        <a href="@Url.Action("transferirEntreCuentas", "Home")">Realizar transferencias entre cuentas propias</a>
     <a href="@Url.Action("Beneficiarios", "Home")">Agregar Beneficiarios</a>
-    <a href="@Url.Action("Prestamos", "Home")">Pago de préstamos</a>
-    <a href="#transferencias-terceros">Realizar transferencias a terceros</a>
-    <a href="#transferencias-otros-bancos">Realizar transferencias a cuentas de otros bancos</a>
+    <a href="@Url.Action("Prestamos", "Home")">Pagar de préstamos</a>
+        <a href="@Url.Action("transferirTerceros", "Home")">Realizar transferencias a terceros</a>
+    <a href="@Url.Action("TransferirBeneficiario", "Home")">Realizar transferencia a beneficiarios</a>
     <a href="@Url.Action("Index", "Home")">Salir</a>
         <!-- Agrega más funciones bancarias según tus necesidades -->
     </div>

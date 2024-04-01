@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferir a beneficiarios</title>
+    <style>
+
+        /* Estilos adicionales para el formulario */
+        form {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Formulario para pago de préstamos -->
+    <form action="transferir_beneficiario" method="post">
+        <h2>Transferir a Beneficiarios</h2>
+
+        <label for="cuenta">Cuenta de origen:</label>
+        <select id="cuenta" name="cuenta" required>
+            <option value="cuenta1">Cuenta 1 - XXXX-XXXX-XXXX-XXXX</option>
+            <option value="cuenta2">Cuenta 2 - XXXX-XXXX-XXXX-XXXX</option>
+            <option value="cuenta3">Cuenta 3 - XXXX-XXXX-XXXX-XXXX</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+
+        <label for="beneficiario">Seleccionar Beneficiario:</label>
+        <select id="beneficiario" name="beneficiario" required>
+            <option value="beneficiario1">Beneficiario 1</option>
+            <option value="beneficiario2">Beneficiario 2</option>
+            <option value="beneficiario3">Beneficiario 3</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+
+        <label for="monto">Monto a Transferir:</label>
+        <input type="text" id="monto" name="monto" placeholder="Ingrese el monto a transferir" required>
+
+        <input type="submit" value="Realizar Transferencia">
+    </form>
+
+</body>
+</html>
