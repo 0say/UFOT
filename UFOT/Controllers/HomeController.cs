@@ -1,6 +1,8 @@
+using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Specialized;
 using System.Diagnostics;
 using UFOT.Data;
 using UFOT.Models;
@@ -11,21 +13,23 @@ namespace UFOT.Controllers
     {
         private readonly BancoWebContext _context;
         private readonly ILogger<HomeController> _logger;
+        private readonly INotyfService _notyf;
 
 
-        public HomeController(ILogger<HomeController> logger,BancoWebContext context)
+
+        public HomeController(ILogger<HomeController> logger,BancoWebContext context, INotyfService notyf )
         {
             _logger = logger;
             _context = context; 
+            _notyf = notyf;
         }
 
         public IActionResult Index()
         {
-            
-            return View();
-
            
+            return View();
         }
+    
 
         public IActionResult Privacy()
         {

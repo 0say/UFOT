@@ -25,11 +25,11 @@ namespace UFOT.Controllers
             if (usuario == null)
             {
                 _notyf.Error("Usuario o Contraseña incorrectos.");
-                 //RedirectToAction("Index", "Home");
+                RedirectToAction("Index", "Home");
             }
-           
-            //List<Cuenta> cuentas = _context.Cuentas.ToList();      
-            // View(cuentas);
+
+            List<Cuenta> cuentas = _context.Cuentas.ToList();      
+             View(cuentas);
         }
 
     }
