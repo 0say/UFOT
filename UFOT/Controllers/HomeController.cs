@@ -1,17 +1,22 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using UFOT.Data;
 using UFOT.Models;
 
 namespace UFOT.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly BancoWebContext _context;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+
+        public HomeController(ILogger<HomeController> logger,BancoWebContext context)
         {
             _logger = logger;
+            _context = context; 
         }
 
         public IActionResult Index()
@@ -30,17 +35,29 @@ namespace UFOT.Controllers
             return View();
         }
 
-        public IActionResult Inicio()
+        public IActionResult Inicio(Usuario login)
         {
-            return View();
+
+
+            
+            Usuario usuarios = _context.Usuarios.FirstOrDefault(x => x.Usuario1 == login.Usuario1 && x.Clave == login.Clave);
+            
+            if (usuarios == null)
+                return RedirectToAction("Index");
+
+            List<Cuenta> cuentas = _context.Cuentas.ToList();
+            return View(cuentas);
+
+
+
         }
 
-        public IActionResult Beneficiarios()
+        public IActionResult Beneficiario()
         { 
             return View(); 
         }
 
-        public IActionResult Prestamos() 
+        public IActionResult Prestamo() 
         { 
             return View(); 
         }

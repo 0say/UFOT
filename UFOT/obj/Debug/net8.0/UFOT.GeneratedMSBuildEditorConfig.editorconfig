@@ -26,8 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\benja\source\repos\UFOT\UFOT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Beneficiarios.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZW5lZmljaWFyaW9zLmNzaHRtbA==
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/ADM/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/ADM/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/ADM/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/ADM/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/ADM/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Beneficiario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZW5lZmljaWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Index.cshtml]
@@ -38,8 +58,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Prestamos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVzdGFtb3MuY3NodG1s
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Prestamo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVzdGFtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Privacy.cshtml]
@@ -50,8 +70,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/TransferirBeneficiario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2ZlcmlyQmVuZWZpY2lhcmlvLmNzaHRtbA==
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/transferirBeneficiario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0cmFuc2ZlcmlyQmVuZWZpY2lhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/transferirEntreCuentas.cshtml]
@@ -81,3 +101,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kg6oi9b0zr
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/Shared/_LayoutBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCYW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-73p6k8fpdr

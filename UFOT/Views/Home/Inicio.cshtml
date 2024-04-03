@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<UFOT.Models.Cuenta>
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -20,13 +22,38 @@
 <body>
 
 
-<div class="container">
-  <div class="account">
-    <h2>Datos de la cuenta bancaria</h2>
-    <p>Nombre del titular: Juan Pérez</p>
-    <p>Número de cuenta: XXXX-XXXX-XXXX-XXXX</p>
-    <p>Saldo disponible: $10,000.00</p>
-  </div>
+ <table class="container">
+    <thead>
+        <tr>
+            <th>
+                    @Html.DisplayNameFor(model => model.NumeroCuenta)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumeroCuenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Balance)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo)
+                    </td>        
+                </tr>
+            }
+    </tbody>
 </div>
 
 </body>
