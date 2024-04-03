@@ -23,11 +23,8 @@ namespace UFOT.Controllers
         {
             
             return View();
-        }
 
-        public IActionResult Registro()
-        {
-            return View();
+           
         }
 
         public IActionResult Privacy()
@@ -35,22 +32,17 @@ namespace UFOT.Controllers
             return View();
         }
 
-        public IActionResult Inicio(Usuario login)
-        {
+        ////public IActionResult Inicio(Usuario login)
+        ////{  
+        ////    Usuario usuarios = _context.Usuarios.FirstOrDefault(x => x.Usuario1 == login.Usuario1 && x.Clave == login.Clave);
 
+        ////    if (usuarios == null)
+        ////        return RedirectToAction("Index");
 
-            
-            Usuario usuarios = _context.Usuarios.FirstOrDefault(x => x.Usuario1 == login.Usuario1 && x.Clave == login.Clave);
-            
-            if (usuarios == null)
-                return RedirectToAction("Index");
+        ////    List<Cuenta> cuentas = _context.Cuentas.ToList();
+        ////    return View(cuentas);
 
-            List<Cuenta> cuentas = _context.Cuentas.ToList();
-            return View(cuentas);
-
-
-
-        }
+        ////}
 
         public IActionResult Beneficiario()
         { 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qkXFmR/lPDL9WI+yAbVfVf9UUi7Bn0rkM1kVNA/PQwevISZjizV22BI6yqDvvbzOJtAgUeJ00snEnhN9KaNQMg==",
+  "dgSpecHash": "j1w0I+X8Li5+xon29d0z1DBMh45DJeANbdDBJlCx1bVsZM0+J2/iOXdm1yYE7JwAWOsPXR3oTJvVmuYp+Bjrhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\benja\\source\\repos\\UFOT\\UFOT\\UFOT.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\benja\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\benja\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\benja\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\benja\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

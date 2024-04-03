@@ -1045,4 +1045,7 @@ C:\Users\benja\OneDrive\Escritorio\UFOT-main\UFOT\obj\Debug\net8.0\UFOT.genrunti
 C:\Users\benja\OneDrive\Escritorio\UFOT-main\UFOT\obj\Debug\net8.0\ref\UFOT.dll
 C:\Users\benja\source\repos\UFOT\UFOT\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\benja\source\repos\UFOT\UFOT\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\scopedcss\Views\Shared\a _Layout.cshtml.rz.scp.css
+C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutBarra.cshtml.rz.scp.css
+C:\Users\benja\source\repos\UFOT\UFOT\bin\Debug\net8.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\Users\benja\source\repos\UFOT\UFOT\bin\Debug\net8.0\AspNetCoreHero.ToastNotification.dll
+C:\Users\benja\source\repos\UFOT\UFOT\obj\Debug\net8.0\UFOT.MvcApplicationPartsAssemblyInfo.cs

@@ -3,6 +3,7 @@
 @{
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -80,6 +81,10 @@
       text-align: center;
       margin-top: 20px;
     }
+
+    .text-danger {
+      color: red;
+    }
   </style>
 </head>
 <body>
@@ -89,36 +94,25 @@
     </div>
 
     <div class="login-form">
-      <h2>Iniciar sesión</h2>
-      @* <form action="/Home/Inicio" method="post">
+      <h2>Iniciar sesión</h2>       
+      <form asp-controller="Home" asp-action="Index" method="post">
         <div class="form-group">
-          <label for="username">Usuario:</label>
-          <input type="text" id="username" name="username" required>
+          <label asp-for="Usuario1" class="control-label"></label>
+          <input asp-for="Usuario1" class="form-control" required /> 
+          <span asp-validation-for="Usuario1" class="text-danger"></span>
         </div>
+
         <div class="form-group">
-          <label for="password">Contraseña:</label>
-          <input type="password" id="password" name="password" required>
+          <label asp-for="Clave" class="control-label"></label>
+          <input asp-for="Clave" class="form-control" required /> 
+          <span asp-validation-for="Clave" class="text-danger"></span>
+        </div> 
+
+        <div class="form-group">
+          <a href="@Url.Action("Index", "Registro")">Registrarse</a>
+          <input type="submit" value="Iniciar Sesión" class="btn btn-primary" />
         </div>
-        <p>¿Nuevo? Regístrate <a href="@Url.Action("Index", "Home")">aquí</a>.</p>
-         
-        <input type="submit" value="Iniciar sesión">
-      </form> *@
-      <form asp-action="Inicio">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>         
-            <div class="form-group">
-                <label asp-for="Usuario1" class="control-label"></label>
-                <input asp-for="Usuario1" class="form-control" />
-                <span asp-validation-for="Usuario1" class="text-danger"></span>
-            </div>          
-            <div class="form-group">
-                <label asp-for="Clave" class="control-label"></label>
-                <input asp-for="Clave" class="form-control" />
-                <span asp-validation-for="Clave" class="text-danger"></span>
-            </div>        
-            <div class="form-group">
-                <input type="submit" value="Inicio" class="btn btn-primary" />
-            </div>
-        </form>
+      </form>
     </div>
 
     <div class="footer">

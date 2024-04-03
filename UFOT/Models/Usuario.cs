@@ -20,6 +20,7 @@ public partial class Usuario
     [Column("Usuario")]
     [StringLength(16)]
     [DisplayName("Usuario")]
+ 
     public string? Usuario1 { get; set; }
 
     [StringLength(100)]
@@ -29,6 +30,7 @@ public partial class Usuario
     public string? Apellido { get; set; }
 
     [StringLength(32)]
+    
     public string? Clave { get; set; }
 
     [StringLength(100)]
