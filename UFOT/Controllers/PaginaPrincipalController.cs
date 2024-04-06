@@ -6,30 +6,36 @@ using System.Collections.Generic;
 
 namespace UFOT.Controllers
 {
-    public class PaginaPrincipalController : Controller
+    public class PaginaPrincipalController : BaseController
     {
-        private readonly BancoWebContext _context;
-        private readonly INotyfService _notyf;
+       
 
-        public PaginaPrincipalController(BancoWebContext context, INotyfService notyf)
+        public PaginaPrincipalController(LogService logger, BancoWebContext context, INotyfService notyf) : base(logger, context, notyf)
         {
-            _context = context;
-            _notyf = notyf;
+        
         }
-      
 
-        public void Index(Usuario login)
+
+        public IActionResult Index(Login login)
         {
-            Usuario usuario = _context.Usuarios.FirstOrDefault(x => x.Usuario1 == login.Usuario1 && x.Clave == login.Clave);
-
+            Usuario usuario = _context.Usuarios.FirstOrDefault(x => x.NombreUsuario == login.NombreUsuario && x.Clave == login.Clave);
+            List<Usuario> usuario1 = _context.Usuarios.ToList();
             if (usuario == null)
             {
-                _notyf.Error("Usuario o Contraseña incorrectos.");
-                RedirectToAction("Index", "Home");
+                _notyf.Error("Usuario o contraseña incorrectos");
+                return RedirectToAction("Index", "Home");
+              
             }
+            if (usuario.Rol == "Admin") 
+            {
+                _logger.AgregarLog("Se ha iniciado sesión como admin", "Información");
+                return RedirectToAction("Index", "ADM");
+            }
+            //  List<Cuenta> cuentas = _context.Cuentas.ToList(); 
 
-            List<Cuenta> cuentas = _context.Cuentas.ToList();      
-             View(cuentas);
+            //   List<Cuenta> cuentas1 = _context.Cuentas.Where(x => x.UsuarioId == usuario.UsuarioId).ToList();
+
+            return View();
         }
 
     }

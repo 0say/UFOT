@@ -30,7 +30,8 @@ namespace UFOT.Controllers
         [HttpPost]
         public IActionResult Create(Usuario usuario)
         {
-
+            List<Usuario> usuarios = _context.Usuarios.ToList();
+           
             if (ModelState.IsValid)
             { 
                 try

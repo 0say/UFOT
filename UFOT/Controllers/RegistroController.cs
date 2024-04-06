@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UFOT.Data;
@@ -7,13 +8,17 @@ using UFOT.Models;
 namespace UFOT.Controllers
 {
     
-    public class RegistroController : Controller
+    public class RegistroController : BaseController
     {
-        private readonly BancoWebContext _context;
-        public RegistroController(BancoWebContext context)
+        public RegistroController(LogService logger, BancoWebContext context, INotyfService notyf) : base(logger, context, notyf)
         {
-            _context = context;
         }
+
+        //private readonly BancoWebContext _context;
+        //public RegistroController(BancoWebContext context)
+        //{
+        //    _context = context;
+        //}
         [HttpGet]
         public IActionResult Index()
         {
@@ -24,10 +29,7 @@ namespace UFOT.Controllers
         [HttpPost]
         public IActionResult Index(Usuario usuario)
         {
-            if (ModelState.IsValid)
-            {
-                
-
+            usuario.Rol = "Cliente";     
                 try
                 {
                     if (usuario.Clave.Length < 8)
@@ -35,14 +37,26 @@ namespace UFOT.Controllers
                         ModelState.AddModelError(string.Empty, "Intente con una contraseña mas larga");
                         return View(usuario);
                     }
-                    else
+
+                if (usuario.NombreUsuario.Length <= 4)
+                {
+                    ModelState.AddModelError(string.Empty, "Intente con una usuario mas largo");
+                    return View(usuario);
+                }
+
+                if (usuario.Telefono.Length < 10)
+                {
+                    ModelState.AddModelError(string.Empty, "Intente con un numero de telefono existente");
+                    return View(usuario);
+                }
+                else
                     {
                         // Agregar el nuevo usuario al contexto
                         _context.Usuarios.Add(usuario);
                         // Guardar los cambios en la base de datos
                         _context.SaveChanges();
                         // Redirigir al usuario a la acción Index después de agregar el usuario
-                        return RedirectToAction(nameof(Index));
+                        return RedirectToAction("Home", "Index");
                     }
                 }
                 catch (Exception ex)
@@ -53,9 +67,8 @@ namespace UFOT.Controllers
                     // Volver a la vista de creación con los datos ingresados por el usuario
                     return View(usuario);
                 }
-            }
+            
             // Si el modelo no es válido, volver a la vista de creación con los datos ingresados por el usuario
-            return View(usuario);
         }
     }
 }

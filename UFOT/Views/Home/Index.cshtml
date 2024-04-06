@@ -1,4 +1,4 @@
-﻿@model UFOT.Models.Usuario
+﻿@model UFOT.Models.Login
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -95,11 +95,11 @@
 
     <div class="login-form">
       <h2>Iniciar sesión</h2>       
-      <form asp-controller="Home" asp-action="Index" method="post">
+      <form asp-controller="PaginaPrincipal" asp-action="Index" method="post">
         <div class="form-group">
-          <label asp-for="Usuario1" class="control-label"></label>
-          <input asp-for="Usuario1" class="form-control" required /> 
-          <span asp-validation-for="Usuario1" class="text-danger"></span>
+          <label asp-for="NombreUsuario" class="control-label"></label>
+          <input asp-for="NombreUsuario" class="form-control" required /> 
+          <span asp-validation-for="NombreUsuario" class="text-danger"></span>
         </div>
 
         <div class="form-group">

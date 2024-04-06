@@ -1,5 +1,4 @@
-﻿@model IEnumerable<UFOT.Models.Cuenta>
-@{
+﻿@{
     ViewData["Title"] = "PaginaPrincipal";
     Layout = "~/Views/Shared/_LayoutBarra.cshtml";
 }
@@ -26,8 +25,8 @@
 <body>
 
 
- <table class="container">
-    <thead>
+ @* <table class="container"> *@
+    @* <thead>
         <tr>
             <th>
                     @Html.DisplayNameFor(model => model.NumeroCuenta)
@@ -57,8 +56,8 @@
                     </td>        
                 </tr>
             }
-    </tbody>
-</div>
+    </tbody> *@
+@* </div> *@
 
 </body>
 </html>
