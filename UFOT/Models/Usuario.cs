@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace UFOT.Models;
 
@@ -8,7 +9,7 @@ public partial class Usuario
     public int UsuarioId { get; set; }
 
     public string? Documento { get; set; }
-
+    [DisplayName ("Usuario")]
     public string? NombreUsuario { get; set; }
 
     public string? Nombre { get; set; }

@@ -56,11 +56,11 @@ namespace UFOT.Controllers
                         // Guardar los cambios en la base de datos
                         _context.SaveChanges();
                         // Redirigir al usuario a la acción Index después de agregar el usuario
-                        return RedirectToAction("Home", "Index");
+                        return RedirectToAction("Index", "Home");
                     }
                 }
                 catch (Exception ex)
-                {
+                { 
                     // Manejar cualquier excepción que ocurra al guardar el usuario en la base de datos
                     // Por ejemplo, puedes agregar el manejo de errores adecuado, como mostrar un mensaje de error al usuario o registrar la excepción
                     ModelState.AddModelError(string.Empty, "Error Al crear el usuario, intente denuevo");
