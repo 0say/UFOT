@@ -8594,6 +8594,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
       "NLog >= 5.2.8",
       "NLog.Web.AspNetCore >= 5.3.8",
+      "Newtonsoft.Json >= 13.0.3",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -8669,6 +8670,10 @@
           "NLog.Web.AspNetCore": {
             "target": "Package",
             "version": "[5.3.8, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

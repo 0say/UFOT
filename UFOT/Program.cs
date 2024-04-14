@@ -18,6 +18,9 @@ builder.Services.AddNotyf(config =>
 });
 builder.Services.AddTransient<LogService>();
 builder.Services.AddTransient<BaseController>();
+builder.Services.AddHttpClient();
+
+
 
 // Agrega la configuración de la sesión antes de crear la aplicación
 builder.Services.AddSession(options =>

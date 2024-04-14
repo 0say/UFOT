@@ -8,7 +8,7 @@ namespace UFOT.Controllers
 {
     public class AgregarBeneficiarioController : BaseController
     {
-        public AgregarBeneficiarioController(LogService logger, BancoWebContext context, INotyfService notyf) : base(logger, context, notyf)
+        public AgregarBeneficiarioController(LogService logger, BancoWebContext context, INotyfService notyf, HttpClient httpClient) : base(logger, context, notyf, httpClient)
         {
         }
 

@@ -1,7 +1,10 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UFOT;
+using System.Data;
 using System.Linq;
+using System.Net.Http;
 using UFOT.Data;
 using UFOT.Models;
 
@@ -9,16 +12,18 @@ namespace UFOT.Controllers
 {
     public class PaginaPrincipalController : BaseController
     {
-        public PaginaPrincipalController(LogService logger, BancoWebContext context, INotyfService notyf) : base(logger, context, notyf)
+        public PaginaPrincipalController(LogService logger, BancoWebContext context, INotyfService notyf, HttpClient httpClient) : base(logger, context, notyf, httpClient)
         {
         }
 
-        public IActionResult Index(Login login)
+        string _baseURL = "https://bankintegrationlayer20240414102922.azurewebsites.net/";
+
+        public async Task<IActionResult> Index(Login login)
         {
             HttpContext.Session.Clear();
-            // Verificar si el usuario ya ha iniciado sesión
             var userId = HttpContext.Session.GetString("UserID");
             var userRl = HttpContext.Session.GetString("UserRL");
+
             if (!string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(userRl))
             {
                 if (userRl == "admin")
@@ -26,7 +31,22 @@ namespace UFOT.Controllers
                     _logger.AgregarLog("Se ha iniciado sesión como admin", "Información");
                     return RedirectToAction("Index", "ADM");
                 }
-                return View();
+
+                // Hacer una solicitud HTTP GET a la API para obtener todas las cuentas
+                HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/api/cuentas");
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+                    List<Cuenta> cuentas = Cuenta.FromJson(json);
+                    // Utilizar las cuentas obtenidas
+                    return View(cuentas);
+                }
+                else
+                {
+                    // Manejar el error de la solicitud HTTP
+                    _logger.AgregarLog($"Error al obtener las cuentas: {response.StatusCode}", "Error");
+                    return RedirectToAction("Index", "Home");
+                }
             }
 
             // Si el usuario no ha iniciado sesión previamente, proceder con la autenticación
@@ -35,6 +55,7 @@ namespace UFOT.Controllers
             {
                 _notyf.Error("Usuario o contraseña incorrectos");
                 return RedirectToAction("Index", "Home");
+
             }
 
             // Verificar la contraseña
@@ -55,6 +76,8 @@ namespace UFOT.Controllers
             }
 
             return View();
+
+
         }
 
     }

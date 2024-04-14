@@ -10,9 +10,10 @@ namespace UFOT.Controllers
     
     public class RegistroController : BaseController
     {
-        public RegistroController(LogService logger, BancoWebContext context, INotyfService notyf) : base(logger, context, notyf)
+        public RegistroController(LogService logger, BancoWebContext context, INotyfService notyf, HttpClient httpClient) : base(logger, context, notyf, httpClient)
         {
         }
+
 
         //private readonly BancoWebContext _context;
         //public RegistroController(BancoWebContext context)
