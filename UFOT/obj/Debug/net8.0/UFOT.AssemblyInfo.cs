@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UFOT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fb5886784871f0214279322537749b7217e34e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d1ff10588f8fd0e161342dae4789c784f8f9ab1")]
 [assembly: System.Reflection.AssemblyProductAttribute("UFOT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UFOT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
