@@ -17,7 +17,7 @@ namespace UFOT
             _notyf = notyf;
         }
 
-        public void AgregarLog(string mensaje, string tipoMensaje)
+        public void AgregarLog(string mensaje, string tipoMensaje) 
         {
             Log log = new Log();
             log.Mensaje = mensaje;
