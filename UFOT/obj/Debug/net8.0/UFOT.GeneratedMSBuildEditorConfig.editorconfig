@@ -54,16 +54,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Prestamo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVzdGFtby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/PaginaPrincipal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnaW5hUHJpbmNpcGFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/PagoPrestamo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1ByZXN0YW1vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/Registro/Index.cshtml]
@@ -82,12 +82,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNCZW5lZmljaWFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Transferencias/TransferirEntreCuentas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNcVHJhbnNmZXJpckVudHJlQ3VlbnRhcy5jc2h0bWw=
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/TransferenciasEntreCuentas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNFbnRyZUN1ZW50YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/source/repos/UFOT/UFOT/Views/Transferencias/TransferirEntreTerceros.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNcVHJhbnNmZXJpckVudHJlVGVyY2Vyb3MuY3NodG1s
+[C:/Users/benja/source/repos/UFOT/UFOT/Views/TransferenciasEntreTerceros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNFbnRyZVRlcmNlcm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/benja/source/repos/UFOT/UFOT/Views/_ViewImports.cshtml]

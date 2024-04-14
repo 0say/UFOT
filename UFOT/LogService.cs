@@ -25,7 +25,6 @@ namespace UFOT
             log.Fecha = DateTime.Now;
             
             _context.Logs.Add(log);
-            _notyf.Information(mensaje);
             _context.SaveChanges();
                     
 
