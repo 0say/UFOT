@@ -1,14 +1,13 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutBarra.cshtml";
 }
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transferencia a Terceros</title>
     <style>
-
         /* Estilos adicionales para el formulario */
         form {
             margin-top: 20px;
@@ -47,27 +46,49 @@
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Transferencia Entre Cuentas</h1>
 
-    <!-- Formulario para transferencia a terceros -->
-    <form action="/realizar_transferencia_tercero" method="post">
-        <h2>Transferencia a Terceros</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-form">
+                    <form asp-controller="TransferenciasEntreTerceros" asp-action="Index" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-        <label for="cuenta_origen">Cuenta de origen:</label>
-        <select id="cuenta_origen" name="cuenta_origen" required>
-            <option value="cuenta1">Cuenta 1 - XXXX-XXXX-XXXX-XXXX</option>
-            <option value="cuenta2">Cuenta 2 - XXXX-XXXX-XXXX-XXXX</option>
-            <option value="cuenta3">Cuenta 3 - XXXX-XXXX-XXXX-XXXX</option>
-            <!-- Agrega más opciones según sea necesario -->
-        </select>
+                        <div class="form-group">
+                            <label for="cuentaOrigen" class="control-label">Cuenta Origen</label>
+                            <select id="cuentaOrigen" name="cuentaOrigen" class="form-control" required>
+                                @foreach (var cuenta in ViewBag.Cuentas)
+                                {
+                                    <option value="@cuenta.IdCuenta">@cuenta.IdCuenta</option>
+                                }
+                            </select>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <label for="cuenta_tercero">Cuenta del tercero:</label>
-        <input type="text" id="cuenta_tercero" name="cuenta_tercero" placeholder="Ingrese el número de cuenta del tercero" required>
+                        <div class="form-group">
+                            <label for="CuentaDestino" class="control-label">CuentaDestino</label>
+                            <input type="text" id="monto" name="CuentaDestino" class="form-control" required>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <label for="monto">Monto a Transferir:</label>
-        <input type="text" id="monto" name="monto" placeholder="Ingrese el monto a transferir" required>
+                        <div class="form-group">
+                            <label for="monto" class="control-label">Monto</label>
+                            <input type="text" id="monto" name="monto" class="form-control" required>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <input type="submit" value="Realizar Transferencia">
-    </form>
+                        <div class="form-group">
+                            <input type="submit" value="Realizar Transferencia" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
 
+            <div class="col-md-6">
+                <img src="https://i.ibb.co/R6w88Nt/corebank-logo.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

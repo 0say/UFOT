@@ -14,7 +14,7 @@ builder.Services.AddNotyf(config =>
 {
     config.DurationInSeconds = 10;
     config.IsDismissable = true;
-    config.Position = NotyfPosition.TopCenter;
+    config.Position = NotyfPosition.BottomRight;
 });
 builder.Services.AddTransient<LogService>();
 builder.Services.AddTransient<BaseController>();

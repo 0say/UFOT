@@ -40,7 +40,7 @@ namespace UFOT
         public DateTimeOffset FechaApertura { get; set; }
 
         [JsonProperty("fechaCierre")]
-        public DateTimeOffset FechaCierre { get; set; }
+        public object FechaCierre { get; set; }
     }
 
     public partial class Cuenta

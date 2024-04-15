@@ -64,7 +64,7 @@ namespace UFOT.Controllers
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Autenticación exitosa, establecer la sesión
+                // Autenticación exitosa, establecer la sesión  
                 HttpContext.Session.SetString("UserID", usuario.UsuarioId.ToString());
                 HttpContext.Session.SetString("UserRL", usuario.Rol);
                 HttpContext.Session.SetString("UserDC", usuario.Documento.ToString());
@@ -75,6 +75,8 @@ namespace UFOT.Controllers
                     _logger.AgregarLog("Se ha iniciado sesión como admin", "Información");
                     return RedirectToAction("Index", "ADM");
                 }
+
+
                
                 // Realizar la solicitud HTTP para obtener las cuentas del usuario
                 HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/{usuario.Documento}");

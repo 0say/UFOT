@@ -1,74 +1,93 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using UFOT.Data;
 using UFOT.Models;
+using System;
 
 namespace UFOT.Controllers
 {
-
     public class AgregarBeneficiarioController : BaseController
     {
         public AgregarBeneficiarioController(LogService logger, BancoWebContext context, INotyfService notyf, HttpClient httpClient) : base(logger, context, notyf, httpClient)
         {
         }
+
         [HttpGet]
         public IActionResult Index()
         {
-            ViewBag.Bancos = new SelectList(_context.Bancos, "BancoId", "Nombre");
-            Beneficiario Beneficiario = new Beneficiario();
-            return View(Beneficiario);
+            // Obtener la lista de bancos de la base de datos
+            var bancos = _context.Bancos.ToList();
 
+            // Convertir la lista de bancos en una lista de SelectListItem
+            var bancosSelectList = bancos.Select(b => new SelectListItem { Value = b.BancoId.ToString(), Text = b.Nombre }).ToList();
+
+            // Agregar una opción por defecto si es necesario
+            bancosSelectList.Insert(0, new SelectListItem { Value = "", Text = "Seleccione un banco" });
+
+            // Asignar la lista de bancos al ViewBag para usarla en la vista
+            ViewBag.Bancos = bancosSelectList;
+
+            // Crear un nuevo beneficiario para el formulario
+            var beneficiario = new Beneficiario();
+
+            // Devolver la vista con el nuevo beneficiario y la lista de bancos
+            return View(beneficiario);
         }
-        
-        [HttpPost]
 
-        public IActionResult Index(Beneficiario Beneficiario)
+
+        [HttpPost]
+        public IActionResult Index(string nombre, string numeroCuenta, int bancoId)
         {
-            
             try
             {
-                if (Beneficiario.Nombre == null)
+                if (ModelState.IsValid)
                 {
-                    _notyf.Error("No puede estar vacio");
-                    return View(Beneficiario);
-                }
+                    // Verificar si los campos requeridos están nulos o vacíos
+                    if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(numeroCuenta) || bancoId == null)
+                    {
+                        _notyf.Error("Todos los campos son obligatorios");
+                        return View();
+                    }
 
-                if (Beneficiario.NumeroCuenta == null)
-                {
-                    _notyf.Error("No puede estar vacio");
-                    return View(Beneficiario);
-                }
+                    // Obtener el UsuarioId de la sesión
 
-                if (Beneficiario.Banco == null)
-                {
-                    _notyf.Error("No puede estar vacio");
-                    return View(Beneficiario);
-                }
+                    var userId2 = HttpContext.Session.GetString("UserID");
+                    if (userId2 != null)
+                    {
+                        // Convertir el UsuarioId a un entero
+                        if (int.TryParse(userId2, out int usuarioId))
+                        {
+                            // Crear un nuevo objeto Beneficiario con los campos proporcionados
+                            var beneficiario = new Beneficiario
+                            {
+                                Nombre = nombre,
+                                NumeroCuenta = numeroCuenta,
+                                UsuarioId = usuarioId,
+                                BancoId = bancoId
+                            };
 
-                else
-                {
-                    // Agregar el nuevo usuario al contexto
-                    var userId = HttpContext.Session.GetString("UserID");
-                    Beneficiario.UsuarioId = Int32.Parse(userId);
-                    _context.Beneficiarios.Add(Beneficiario);
-                    // Guardar los cambios en la base de datos
-                    _context.SaveChanges();
-                    // Redirigir al usuario a la acción Index después de agregar el usuario
-                    return RedirectToAction("Index", "Pagina Principal");
+                            // Agregar el beneficiario al contexto y guardar los cambios en la base de datos
+                            _context.Beneficiarios.Add(beneficiario);
+                            _context.SaveChanges();
+                            _notyf.Success($"Beneficiario {beneficiario.Nombre} agregado");
+
+                            // Redirigir a la página principal o a alguna otra página después de agregar el beneficiario
+                            return View();
+                        }
+                    }
+
                 }
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción que ocurra al guardar el usuario en la base de datos
-                // Por ejemplo, puedes agregar el manejo de errores adecuado, como mostrar un mensaje de error al usuario o registrar la excepción
-                _notyf.Error("Error Al crear Beneficiario");
-                // Volver a la vista de creación con los datos ingresados por el usuario
-                return View(Beneficiario);
+                _notyf.Error($"Error al agregar beneficiario: {ex.Message}");
             }
 
-            // Si el modelo no es válido, volver a la vista de creación con los datos ingresados por el usuario
+            // Si hay algún error o el modelo no es válido, volver a mostrar el formulario con los datos ingresados por el usuario
+            return View();
         }
+
     }
 }

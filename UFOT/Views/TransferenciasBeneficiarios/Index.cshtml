@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<UFOT.Models.Beneficiario>
+@{
     Layout = "~/Views/Shared/_LayoutBarra.cshtml";
 }
 
@@ -7,9 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transferir a beneficiarios</title>
+    <title>Transferencia Entre Cuentas</title>
     <style>
-
         /* Estilos adicionales para el formulario */
         form {
             margin-top: 20px;
@@ -48,32 +48,54 @@
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Transferencia Entre Cuentas</h1>
 
-    <!-- Formulario para pago de préstamos -->
-    <form action="transferir_beneficiario" method="post">
-        <h2>Transferir a Beneficiarios</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-form">
+                    <form asp-controller="TransferenciasBeneficiarios" asp-action="Index" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-        <label for="cuenta">Cuenta de origen:</label>
-        <select id="cuenta" name="cuenta" required>
-            <option value="cuenta1">Cuenta 1 - XXXX-XXXX-XXXX-XXXX</option>
-            <option value="cuenta2">Cuenta 2 - XXXX-XXXX-XXXX-XXXX</option>
-            <option value="cuenta3">Cuenta 3 - XXXX-XXXX-XXXX-XXXX</option>
-            <!-- Agrega más opciones según sea necesario -->
-        </select>
+                        <div class="form-group">
+                            <label for="cuentaOrigen" class="control-label">Cuenta Origen</label>
+                            <select id="cuentaOrigen" name="cuentaOrigen" class="form-control" required>
+                                @foreach (var cuenta in ViewBag.Cuentas)
+                                {
+                                    <option value="@cuenta.IdCuenta">@cuenta.IdCuenta</option>
+                                }
+                            </select>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <label for="beneficiario">Seleccionar Beneficiario:</label>
-        <select id="beneficiario" name="beneficiario" required>
-            <option value="beneficiario1">Beneficiario 1</option>
-            <option value="beneficiario2">Beneficiario 2</option>
-            <option value="beneficiario3">Beneficiario 3</option>
-            <!-- Agrega más opciones según sea necesario -->
-        </select>
+                        <div class="form-group">
+                            <label for="beneficiario" class="control-label">Beneficiario</label>
+                            <select id="beneficiario" name="beneficiario" class="form-control" required>
+                                @foreach (var beneficiario in ViewBag.Beneficiarios)
+                                {
+                                    <option value="@beneficiario.Nombre">@beneficiario.Nombre</option>
+                                }
+                            </select>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <label for="monto">Monto a Transferir:</label>
-        <input type="text" id="monto" name="monto" placeholder="Ingrese el monto a transferir" required>
+                        <div class="form-group">
+                            <label for="monto" class="control-label">Monto</label>
+                            <input type="text" id="monto" name="monto" class="form-control" required>
+                            <span class="text-danger"></span>
+                        </div>
 
-        <input type="submit" value="Realizar Transferencia">
-    </form>
+                        <div class="form-group">
+                            <input type="submit" value="Realizar Transferencia" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
 
+            <div class="col-md-6">
+                <img src="https://i.ibb.co/R6w88Nt/corebank-logo.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
