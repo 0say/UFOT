@@ -8,6 +8,7 @@ using System.Net.Http;
 using UFOT.Data;
 using UFOT.Models;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace UFOT.Controllers
 {
@@ -97,6 +98,8 @@ namespace UFOT.Controllers
             }
 
         }
+
+
         public IActionResult CerrarSesion()
         {
             HttpContext.Session.Clear();

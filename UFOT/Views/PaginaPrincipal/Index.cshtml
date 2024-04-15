@@ -1,5 +1,4 @@
 ﻿@{
-
     Layout = "~/Views/Shared/_LayoutBarra.cshtml";
 }
 
@@ -62,7 +61,7 @@
                     <th>Balance</th>
                     <th>Tipo</th>
                     <th>Moneda</th>
-                    <th>Acciones</th> <!-- Nueva columna para botón -->
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -75,7 +74,7 @@
                             <td>@cuenta.Balance $</td>
                             <td>@cuenta.TipoCuenta</td>
                             <td>@cuenta.Moneda</td>
-                            <td><button class="btn-movimientos" onclick="verMovimientos('@cuenta.IdCuenta')">Ver Movimientos</button></td> <!-- Botón para ver movimientos -->
+                            <td><button class="btn-movimientos" onclick="verMovimientos('@cuenta.IdCuenta')">Ver Movimientos</button></td>
                         </tr>
                     }
                 }
@@ -90,12 +89,32 @@
     </div>
 
     <script>
-        function verMovimientos(idCuenta) {
-            // Aquí puedes implementar la lógica para redirigir a la página de movimientos
-            // Por ejemplo, puedes redirigir a una nueva página pasando el ID de la cuenta como parámetro
-            // window.location.href = "/Movimientos/Index?idCuenta=" + idCuenta;
-            // O puedes mostrar los movimientos en un modal o cargarlos dinámicamente en esta misma página utilizando AJAX
+        function verMovimientos(idCliente) {
+            const data = { idCliente: idCliente };
+
+            fetch('/api/client/movimientos', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('La solicitud no fue exitosa');
+                    }
+                    return response.text(); // Obtener el cuerpo de la respuesta como texto HTML
+                })
+                .then(html => {
+                    // Insertar el HTML en un div con id "movimientosTable"
+                    document.getElementById('movimientosTable').innerHTML = html;
+                })
+                .catch(error => {
+                    console.error('Error al obtener los movimientos:', error);
+                });
         }
+
+
     </script>
 </body>
 </html>
