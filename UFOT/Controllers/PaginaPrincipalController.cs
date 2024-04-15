@@ -75,7 +75,7 @@ namespace UFOT.Controllers
                     _logger.AgregarLog("Se ha iniciado sesión como admin", "Información");
                     return RedirectToAction("Index", "ADM");
                 }
-
+               
                 // Realizar la solicitud HTTP para obtener las cuentas del usuario
                 HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/{usuario.Documento}");
 
@@ -91,6 +91,7 @@ namespace UFOT.Controllers
                     _notyf.Error("No se pudieron obtener las cuentas del usuario");
                     return RedirectToAction("Index", "Home");
                 }
+ 
             }
 
         }
