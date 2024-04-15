@@ -73,7 +73,7 @@ namespace UFOT.Controllers
                 if (usuario.Rol == "Admin")
                 {
                     _logger.AgregarLog("Se ha iniciado sesión como admin", "Información");
-                    return RedirectToAction("Index", "ADM");s
+                    return RedirectToAction("Index", "ADM");
                 }
 
                 // Realizar la solicitud HTTP para obtener las cuentas del usuario
