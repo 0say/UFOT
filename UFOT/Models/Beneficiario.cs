@@ -13,5 +13,9 @@ public partial class Beneficiario
 
     public int? BancoId { get; set; }
 
+    public int? UsuarioId { get; set; }
+
     public virtual Banco? Banco { get; set; }
+
+    public virtual Usuario? Usuario { get; set; }
 }

@@ -26,13 +26,13 @@ public partial class BancoWebContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=bancoweb.czqg8a8oopxh.us-east-2.rds.amazonaws.com, 1433;Initial Catalog=Banco_Web;Integrated Security=false; Encrypt=False; User ID=admin; Password=12345678;");
+        => optionsBuilder.UseSqlServer("Server=bancoweb.czqg8a8oopxh.us-east-2.rds.amazonaws.com, 1433;Initial Catalog=Banco_Web;Integrated Security=false; Encrypt=false; User ID=admin; Password=12345678");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Banco>(entity =>
         {
-            entity.HasKey(e => e.BancoId).HasName("PK__Bancos__4A8BAC15CED5C98B");
+            entity.HasKey(e => e.BancoId).HasName("PK__Bancos__4A8BAC1500A8F36C");
 
             entity.Property(e => e.BancoId).HasColumnName("BancoID");
             entity.Property(e => e.Nombre).HasMaxLength(100);
@@ -40,21 +40,26 @@ public partial class BancoWebContext : DbContext
 
         modelBuilder.Entity<Beneficiario>(entity =>
         {
-            entity.HasKey(e => e.BeneficiarioId).HasName("PK__Benefici__5A04A8D33D0551DC");
+            entity.HasKey(e => e.BeneficiarioId).HasName("PK__Benefici__5A04A8D3C22EE431");
 
             entity.Property(e => e.BeneficiarioId).HasColumnName("BeneficiarioID");
             entity.Property(e => e.BancoId).HasColumnName("BancoID");
             entity.Property(e => e.Nombre).HasMaxLength(100);
             entity.Property(e => e.NumeroCuenta).HasMaxLength(20);
+            entity.Property(e => e.UsuarioId).HasColumnName("UsuarioID");
 
             entity.HasOne(d => d.Banco).WithMany(p => p.Beneficiarios)
                 .HasForeignKey(d => d.BancoId)
-                .HasConstraintName("FK__Beneficia__Banco__4D94879B");
+                .HasConstraintName("FK__Beneficia__Banco__3D5E1FD2");
+
+            entity.HasOne(d => d.Usuario).WithMany(p => p.Beneficiarios)
+                .HasForeignKey(d => d.UsuarioId)
+                .HasConstraintName("FK_Beneficiarios_Usuarios");
         });
 
         modelBuilder.Entity<Log>(entity =>
         {
-            entity.HasKey(e => e.LogId).HasName("PK__Log__5E5499A875D2C3D8");
+            entity.HasKey(e => e.LogId).HasName("PK__Log__5E5499A8B6585386");
 
             entity.ToTable("Log");
 
@@ -65,11 +70,11 @@ public partial class BancoWebContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.UsuarioId).HasName("PK__Usuario__2B3DE798DF167E5C");
+            entity.HasKey(e => e.UsuarioId).HasName("PK__Usuario__2B3DE79834850C50");
 
             entity.ToTable("Usuario");
 
-            entity.HasIndex(e => e.Documento, "UQ__Usuario__AF73706DF7B783A5").IsUnique();
+            entity.HasIndex(e => e.Documento, "UQ__Usuario__AF73706D7A0357ED").IsUnique();
 
             entity.Property(e => e.UsuarioId).HasColumnName("UsuarioID");
             entity.Property(e => e.Apellido).HasMaxLength(100);
