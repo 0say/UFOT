@@ -17,91 +17,91 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UFOT
 build_property.RootNamespace = UFOT
-build_property.ProjectDir = C:\Users\benja\OneDrive\Documents\GitHub\UFOT\UFOT\
+build_property.ProjectDir = C:\Git\UFOT\UFOT\UFOT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\benja\OneDrive\Documents\GitHub\UFOT\UFOT
+build_property.MSBuildProjectDirectory = C:\Git\UFOT\UFOT\UFOT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/ADM/Create.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/ADM/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/ADM/Delete.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/ADM/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/ADM/Details.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/ADM/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/ADM/Edit.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/ADM/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/ADM/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/ADM/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/AgregarBeneficiario/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/AgregarBeneficiario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdyZWdhckJlbmVmaWNpYXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Home/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Home/Privacy.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/PaginaPrincipal/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/PaginaPrincipal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnaW5hUHJpbmNpcGFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/PagoPrestamo/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/PagoPrestamo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1ByZXN0YW1vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Registro/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Registro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Shared/Error.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/TransferenciasBeneficiarios/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/TransferenciasBeneficiarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNCZW5lZmljaWFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/TransferenciasEntreCuentas/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/TransferenciasEntreCuentas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNFbnRyZUN1ZW50YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/TransferenciasEntreTerceros/Index.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/TransferenciasEntreTerceros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJlbmNpYXNFbnRyZVRlcmNlcm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/_ViewImports.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/_ViewStart.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Shared/_Layout.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kg6oi9b0zr
 
-[C:/Users/benja/OneDrive/Documents/GitHub/UFOT/UFOT/Views/Shared/_LayoutBarra.cshtml]
+[C:/Git/UFOT/UFOT/UFOT/Views/Shared/_LayoutBarra.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCYXJyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-ebrrgpvyui

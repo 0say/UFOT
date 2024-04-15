@@ -82,6 +82,13 @@
       margin-top: 20px;
     }
 
+    .img-fluid {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px 130px; 
+    }
+
     .text-danger {
       color: red;
     }
@@ -93,6 +100,9 @@
       <h1>Bienvenido al Banco CoreBank</h1>
     </div>
 
+        <div class="col-md-6">
+            <img src="https://i.ibb.co/9rmMr6D/427c269a-3bf6-452f-affe-6dcf822daeb7.jpg" class="img-fluid">
+        </div>
     <div class="login-form">
       <h2>Iniciar sesión</h2>       
       <form asp-controller="PaginaPrincipal" asp-action="Index" method="post">
@@ -114,6 +124,9 @@
         </div>
       </form>
     </div>
+        <div class="col-md-6">
+            <img src="https://i.ibb.co/9rmMr6D/427c269a-3bf6-452f-affe-6dcf822daeb7.jpg" class="img-fluid">
+        </div>
 
     <div class="footer">
       <p>&copy; 2024 Banco CoreBank. Todos los derechos reservados.</p>
