@@ -1,90 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\UFOT\\UFOT\\",
+  "WorkspaceRootPath": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\agregarbeneficiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\agregarbeneficiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\data\\bancowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\data\\bancowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\paginaprincipalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\paginaprincipalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\paginaprincipalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\controllers\\transferenciasbeneficiarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\transferenciasbeneficiarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\agregarbeneficiario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\agregarbeneficiario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\views\\transferenciasbeneficiarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\transferenciasbeneficiarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\git\\ufot\\ufot\\ufot\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\adm\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\adm\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\paginaprincipal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\paginaprincipal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\adm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\adm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\controllers\\admcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\admcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\admcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|C:\\Git\\UFOT\\UFOT\\ufot\\views\\shared\\_layoutbarra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\shared\\_layoutbarra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\shared\\_layoutbarra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\paginaprincipal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\paginaprincipal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\transferenciasbeneficiarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\transferenciasbeneficiarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\transferenciasbeneficiarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\transferenciasbeneficiarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\agregarbeneficiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\agregarbeneficiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\data\\bancowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\data\\bancowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\adm\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\adm\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|c:\\users\\benja\\onedrive\\documents\\github\\ufot\\ufot\\views\\adm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B81EE32-FF45-441E-9CA8-CFC8A72A7ED2}|UFOT\\UFOT.csproj|solutionrelative:ufot\\views\\adm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,36 +90,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
+              "RelativeToolTip": "UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T23:58:20.107Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CuentaController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\CuentaController.cs",
+              "RelativeDocumentMoniker": "UFOT\\Controllers\\CuentaController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\CuentaController.cs",
+              "RelativeToolTip": "UFOT\\Controllers\\CuentaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:53:45.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BancoWebContext.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Data\\BancoWebContext.cs",
-              "RelativeDocumentMoniker": "UFOT\\Data\\BancoWebContext.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Data\\BancoWebContext.cs",
-              "RelativeToolTip": "UFOT\\Data\\BancoWebContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ADMController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\ADMController.cs",
+              "RelativeDocumentMoniker": "UFOT\\Controllers\\ADMController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\ADMController.cs",
+              "RelativeToolTip": "UFOT\\Controllers\\ADMController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAuwKQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T00:36:58.659Z",
+              "WhenOpened": "2024-04-14T23:53:45.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginaPrincipalController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\PaginaPrincipalController.cs",
+              "RelativeDocumentMoniker": "UFOT\\Controllers\\PaginaPrincipalController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\PaginaPrincipalController.cs",
+              "RelativeToolTip": "UFOT\\Controllers\\PaginaPrincipalController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAiwEsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:53:45.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "_LayoutBarra.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
+              "RelativeDocumentMoniker": "UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
+              "RelativeToolTip": "UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T23:53:45.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
+              "RelativeDocumentMoniker": "UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
+              "RelativeToolTip": "UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T23:53:45.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Models\\Cuenta.cs",
+              "RelativeDocumentMoniker": "UFOT\\Models\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Models\\Cuenta.cs",
+              "RelativeToolTip": "UFOT\\Models\\Cuenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:53:45.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BancoWebContext.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Data\\BancoWebContext.cs",
+              "RelativeDocumentMoniker": "UFOT\\Data\\BancoWebContext.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Data\\BancoWebContext.cs",
+              "RelativeToolTip": "UFOT\\Data\\BancoWebContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T00:36:58.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TransferenciasBeneficiariosController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
               "RelativeDocumentMoniker": "UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
               "RelativeToolTip": "UFOT\\Controllers\\TransferenciasBeneficiariosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,76 +210,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaginaPrincipalController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\PaginaPrincipalController.cs",
-              "RelativeDocumentMoniker": "UFOT\\Controllers\\PaginaPrincipalController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\PaginaPrincipalController.cs",
-              "RelativeToolTip": "UFOT\\Controllers\\PaginaPrincipalController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:53:45.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "AgregarBeneficiarioController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\AgregarBeneficiarioController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\AgregarBeneficiarioController.cs",
               "RelativeDocumentMoniker": "UFOT\\Controllers\\AgregarBeneficiarioController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\AgregarBeneficiarioController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\AgregarBeneficiarioController.cs",
               "RelativeToolTip": "UFOT\\Controllers\\AgregarBeneficiarioController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDUAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T23:53:45.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UFOT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UFOT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T23:53:45.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "RegistroController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\RegistroController.cs",
               "RelativeDocumentMoniker": "UFOT\\Controllers\\RegistroController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\RegistroController.cs",
               "RelativeToolTip": "UFOT\\Controllers\\RegistroController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:53:45.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T23:53:45.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\AgregarBeneficiario\\Index.cshtml",
-              "RelativeDocumentMoniker": "UFOT\\Views\\AgregarBeneficiario\\Index.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\AgregarBeneficiario\\Index.cshtml",
-              "RelativeToolTip": "UFOT\\Views\\AgregarBeneficiario\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T23:53:45.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
-              "RelativeToolTip": "UFOT\\Views\\TransferenciasBeneficiarios\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T23:58:20.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\appsettings.json",
               "RelativeDocumentMoniker": "UFOT\\appsettings.json",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\appsettings.json",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\appsettings.json",
               "RelativeToolTip": "UFOT\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -210,23 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
-              "RelativeDocumentMoniker": "UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
-              "RelativeToolTip": "UFOT\\Views\\PaginaPrincipal\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwBsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T23:53:45.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\ADM\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\ADM\\Create.cshtml",
               "RelativeDocumentMoniker": "UFOT\\Views\\ADM\\Create.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\ADM\\Create.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\ADM\\Create.cshtml",
               "RelativeToolTip": "UFOT\\Views\\ADM\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -234,37 +273,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Models\\Cuenta.cs",
-              "RelativeDocumentMoniker": "UFOT\\Models\\Cuenta.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Models\\Cuenta.cs",
-              "RelativeToolTip": "UFOT\\Models\\Cuenta.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwEgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:53:45.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\appsettings.Development.json",
               "RelativeDocumentMoniker": "UFOT\\appsettings.Development.json",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\appsettings.Development.json",
               "RelativeToolTip": "UFOT\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-14T23:56:08.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T23:56:08.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UFOT\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UFOT\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "UFOT\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Controllers\\BaseController.cs",
               "RelativeToolTip": "UFOT\\Controllers\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "LogService.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\LogService.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\LogService.cs",
               "RelativeDocumentMoniker": "UFOT\\LogService.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\LogService.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\LogService.cs",
               "RelativeToolTip": "UFOT\\LogService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAwwCAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,23 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "UFOT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "UFOT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T23:53:45.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Program.cs",
               "RelativeDocumentMoniker": "UFOT\\Program.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Program.cs",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Program.cs",
               "RelativeToolTip": "UFOT\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -320,51 +333,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CuentaController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\CuentaController.cs",
-              "RelativeDocumentMoniker": "UFOT\\Controllers\\CuentaController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\CuentaController.cs",
-              "RelativeToolTip": "UFOT\\Controllers\\CuentaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:53:45.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\ADM\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\ADM\\Index.cshtml",
               "RelativeDocumentMoniker": "UFOT\\Views\\ADM\\Index.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\ADM\\Index.cshtml",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documents\\GitHub\\UFOT\\UFOT\\Views\\ADM\\Index.cshtml",
               "RelativeToolTip": "UFOT\\Views\\ADM\\Index.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAADwv1AAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-14T23:53:45.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ADMController.cs",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\ADMController.cs",
-              "RelativeDocumentMoniker": "UFOT\\Controllers\\ADMController.cs",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Controllers\\ADMController.cs",
-              "RelativeToolTip": "UFOT\\Controllers\\ADMController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAuwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:53:45.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_LayoutBarra.cshtml",
-              "DocumentMoniker": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
-              "RelativeDocumentMoniker": "UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
-              "ToolTip": "C:\\Git\\UFOT\\UFOT\\UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
-              "RelativeToolTip": "UFOT\\Views\\Shared\\_LayoutBarra.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T23:53:45.569Z"
             }
           ]
         }

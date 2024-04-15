@@ -35,6 +35,12 @@
             margin-left: 250px;
             padding: 20px;
         }
+
+        .link-button {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -47,7 +53,9 @@
     <a href="@Url.Action("Index", "PagoPrestamo")">Pagar de préstamos</a>
         <a href="@Url.Action("Index", "TransferenciasEntreTerceros")">Realizar transferencias a terceros</a>
     <a href="@Url.Action("Index", "TransferenciasBeneficiarios")">Realizar transferencia a beneficiarios</a>
-    <a href="@Url.Action("Index", "Home")">Salir</a>
+        <a href="@Url.Action("CerrarSesion", "PaginaPrincipal")" class="link-button">Salir</a>
+
+
         <!-- Agrega más funciones bancarias según tus necesidades -->
     </div>
 
