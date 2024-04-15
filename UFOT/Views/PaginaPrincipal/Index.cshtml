@@ -1,4 +1,5 @@
 ﻿@{
+
     Layout = "~/Views/Shared/_LayoutBarra.cshtml";
 }
 
@@ -37,6 +38,19 @@
             text-align: center;
             color: #777;
         }
+
+        .btn-movimientos {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -48,10 +62,11 @@
                     <th>Balance</th>
                     <th>Tipo</th>
                     <th>Moneda</th>
+                    <th>Acciones</th> <!-- Nueva columna para botón -->
                 </tr>
             </thead>
             <tbody>
-                @if (Model != null  )
+                @if (Model != null)
                 {
                     @foreach (var cuenta in Model)
                     {
@@ -60,17 +75,27 @@
                             <td>@cuenta.Balance $</td>
                             <td>@cuenta.TipoCuenta</td>
                             <td>@cuenta.Moneda</td>
+                            <td><button class="btn-movimientos" onclick="verMovimientos('@cuenta.IdCuenta')">Ver Movimientos</button></td> <!-- Botón para ver movimientos -->
                         </tr>
                     }
                 }
                 else
                 {
                     <tr>
-                        <td colspan="3" class="no-data">No se encontraron cuentas</td>
+                        <td colspan="5" class="no-data">No se encontraron cuentas</td>
                     </tr>
                 }
             </tbody>
         </table>
     </div>
+
+    <script>
+        function verMovimientos(idCuenta) {
+            // Aquí puedes implementar la lógica para redirigir a la página de movimientos
+            // Por ejemplo, puedes redirigir a una nueva página pasando el ID de la cuenta como parámetro
+            // window.location.href = "/Movimientos/Index?idCuenta=" + idCuenta;
+            // O puedes mostrar los movimientos en un modal o cargarlos dinámicamente en esta misma página utilizando AJAX
+        }
+    </script>
 </body>
 </html>

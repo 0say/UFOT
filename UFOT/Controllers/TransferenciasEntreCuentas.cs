@@ -81,7 +81,7 @@ namespace UFOT.Controllers
                     {
                         idCuentaOrigen = cuentaOrigen,
                         idCuentaDestino = cuentaDestino,
-                        idTipoTransaccion = 1, 
+                        idTipoTransaccion = 7, 
                         monto = monto,
                         idTipoMovimiento = 1
                     };
