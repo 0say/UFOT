@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net.Http;
 using UFOT.Data;
 using UFOT.Models;
+using Newtonsoft.Json;
 
 namespace UFOT.Controllers
 {
@@ -33,19 +34,13 @@ namespace UFOT.Controllers
                 }
 
                 // Hacer una solicitud HTTP GET a la API para obtener todas las cuentas
-                HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/api/cuentas");
+                HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/api/cuentas/123456789");
                 if (response.IsSuccessStatusCode)
                 {
                     string json = await response.Content.ReadAsStringAsync();
-                    List<Cuenta> cuentas = Cuenta.FromJson(json);
+                    List<Cuenta> cuentas = JsonConvert.DeserializeObject<List<Cuenta>>(json);
                     // Utilizar las cuentas obtenidas
                     return View(cuentas);
-                }
-                else
-                {
-                    // Manejar el error de la solicitud HTTP
-                    _logger.AgregarLog($"Error al obtener las cuentas: {response.StatusCode}", "Error");
-                    return RedirectToAction("Index", "Home");
                 }
             }
 

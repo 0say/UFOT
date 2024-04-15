@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace UFOT.Models;
 
@@ -9,7 +8,7 @@ public partial class Usuario
     public int UsuarioId { get; set; }
 
     public string? Documento { get; set; }
-    [DisplayName ("Usuario")]
+
     public string? NombreUsuario { get; set; }
 
     public string? Nombre { get; set; }
@@ -25,4 +24,6 @@ public partial class Usuario
     public string? Telefono { get; set; }
 
     public string Rol { get; set; } = null!;
+
+    public virtual ICollection<Beneficiario> Beneficiarios { get; set; } = new List<Beneficiario>();
 }

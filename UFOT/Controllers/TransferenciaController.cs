@@ -17,6 +17,7 @@ namespace UFOT.Controllers
         public IActionResult TransferirBeneficiario()
         {
             return View();
+            
         }
 
         public IActionResult TransferirEntreCuentas() { return View(); }
