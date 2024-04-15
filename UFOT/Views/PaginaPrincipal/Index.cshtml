@@ -74,8 +74,8 @@
                             <td>@cuenta.Balance $</td>
                             <td>@cuenta.TipoCuenta</td>
                             <td>@cuenta.Moneda</td>
-                            <td><button class="btn-movimientos" onclick="verMovimientos('@cuenta.IdCuenta')">Ver Movimientos</button></td>
-                        </tr>
+@*                             <td><button class="btn-movimientos" onclick="verMovimientos('@cuenta.IdCuenta')">Ver Movimientos</button></td>
+ *@                        </tr>
                     }
                 }
                 else
@@ -89,31 +89,10 @@
     </div>
 
     <script>
-        function verMovimientos(idCliente) {
-            const data = { idCliente: idCliente };
-
-            fetch('/api/client/movimientos', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('La solicitud no fue exitosa');
-                    }
-                    return response.text(); // Obtener el cuerpo de la respuesta como texto HTML
-                })
-                .then(html => {
-                    // Insertar el HTML en un div con id "movimientosTable"
-                    document.getElementById('movimientosTable').innerHTML = html;
-                })
-                .catch(error => {
-                    console.error('Error al obtener los movimientos:', error);
-                });
-        }
-
+        function verMovimientos(idCuenta) {
+    // Redirigir a la vista "VerMovimientos" con el ID de la cuenta como parámetro
+         window.location.href = "/PaginaPrincipal/VerMovimientos
+}
 
     </script>
 </body>

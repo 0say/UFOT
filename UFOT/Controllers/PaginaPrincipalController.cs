@@ -99,7 +99,14 @@ namespace UFOT.Controllers
 
         }
 
+        //public IActionResult Movimientos(int id)
+        //{
+        //        var userDc = HttpContext.Session.GetString("UserDC");
+        //    HttpResponseMessage response = await _httpClient.GetAsync($"{_baseURL}/Movimientos/{userDc}");
+        //    // Buscar el usuario con el UsuarioId proporcionado en la base de datos
 
+
+        //}
         public IActionResult CerrarSesion()
         {
             HttpContext.Session.Clear();

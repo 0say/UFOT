@@ -39,7 +39,7 @@ namespace UFOT.Controllers
                         List<Prestamo> prestamos = JsonConvert.DeserializeObject<List<Prestamo>>(jsonPrestamos);
 
                         // Obtener las cuentas del usuario
-                        HttpResponseMessage cuentasResponse = await _httpClient.GetAsync($"{_baseURL}/api/Client/Cuentas/{userId}");
+                        HttpResponseMessage cuentasResponse = await _httpClient.GetAsync($"{_baseURL}/{userId}");
 
                         if (cuentasResponse.IsSuccessStatusCode)
                         {
