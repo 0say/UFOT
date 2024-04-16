@@ -18,8 +18,8 @@ namespace UFOT.Controllers
         {
         }
 
-        string _baseURL = "https://bankintegrationlayer20240414102922.azurewebsites.net/";
-
+        string _baseURL = "https://bankintegrationlayer20240414102922.azurewebsites.net";
+        
         public async Task<IActionResult> Index()
         {
             try
@@ -31,7 +31,7 @@ namespace UFOT.Controllers
                 if (!string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(userRl))
                 {
                     var userDc = HttpContext.Session.GetString("UserDC");
-                    HttpResponseMessage prestamosResponse = await _httpClient.GetAsync($"{_baseURL}/prestamos/{userId}");
+                    HttpResponseMessage prestamosResponse = await _httpClient.GetAsync($"{_baseURL}/Prestamos/{userDc}");
 
                     if (prestamosResponse.IsSuccessStatusCode)
                     {
@@ -39,7 +39,7 @@ namespace UFOT.Controllers
                         List<Prestamo> prestamos = JsonConvert.DeserializeObject<List<Prestamo>>(jsonPrestamos);
 
                         // Obtener las cuentas del usuario
-                        HttpResponseMessage cuentasResponse = await _httpClient.GetAsync($"{_baseURL}/{userId}");
+                        HttpResponseMessage cuentasResponse = await _httpClient.GetAsync($"{_baseURL}/{userDc}");
 
                         if (cuentasResponse.IsSuccessStatusCode)
                         {
@@ -97,15 +97,18 @@ namespace UFOT.Controllers
                 var userDc = HttpContext.Session.GetString("UserDC");
 
                 // Obtener la información del préstamo seleccionado
-                Prestamo prestamoSeleccionado = null;
-                foreach (var p in ViewBag.Prestamos)
-                {
-                    if (p.IdPrestamo == prestamo)
-                    {
-                        prestamoSeleccionado = p;
-                        break;
-                    }
-                }
+                HttpResponseMessage prestamosResponse = await _httpClient.GetAsync($"https://bankintegrationlayer20240414102922.azurewebsites.net/Api/Cash/Prestamos/{prestamo.ToString()}");
+                
+                Prestamo prestamoSeleccionado = JsonConvert.DeserializeObject<Prestamo>(prestamosResponse.Content.ReadAsStringAsync().Result);
+               
+                //foreach (var p in ViewBag.Prestamos)
+                //{
+                //    if (p.IdPrestamo == prestamo)
+                //    {
+                //        prestamoSeleccionado = p;
+                //        break;
+                //    }
+                //}
 
                 if (prestamoSeleccionado != null)
                 {
