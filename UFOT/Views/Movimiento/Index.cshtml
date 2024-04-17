@@ -1,0 +1,27 @@
+﻿@model List<UFOT.Models.Movimiento>
+
+@{
+  
+    Layout = "~/Views/Shared/_LayoutBarra.cshtml";
+}  
+
+
+<h2>Movimientos</h2>
+
+<table class="table">
+    <tr>
+        <th>ID Transacción</th>
+        <th>Monto</th>
+        <th>Fecha de Transacción</th>
+        <th>Descripción</th>
+    </tr>
+    @foreach (var movimiento in Model)
+    {
+        <tr>
+            <td>@movimiento.IDTransaccion</td>
+            <td>@movimiento.Monto</td>
+            <td>@movimiento.FechaTransaccion.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            <td>@movimiento.Descripcion</td>
+        </tr>
+    }
+</table>
